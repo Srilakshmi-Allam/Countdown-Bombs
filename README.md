@@ -1,2 +1,35 @@
 # react-jest-typescript_Countdown-imer-Bombs
 Created with CodeSandbox
+
+1. Assumption: Each timebomb is initialized with a random countdown time between 10 and 20 seconds.
+Reasoning: The problem statement specified that each timebomb should have an initial countdown time between 10 and 20 seconds. This was implemented by generating a random value within this range.
+
+
+2. Assumption: The "Explode" button starts the countdown for all timebombs simultaneously.
+Reasoning: The problem statement indicates that the button should initiate the countdown for all bombs and transition the app to a state where the countdown is in progress.
+
+
+3. Assumption: The countdown for each bomb is displayed in seconds and updates every second until it reaches zero.
+Reasoning: This aligns with the typical behavior expected from a countdown timer, where the remaining time is shown to the user and decreases consistently.
+
+
+4. Assumption: When a bomb’s countdown reaches zero, the text changes to "Exploded," and no further updates occur for that bomb.
+Reasoning: The problem statement requires that each timebomb’s state be updated to indicate it has exploded once its countdown is complete.
+
+
+5. Assumption: The "Explode" button’s text changes to "Waiting to explode..." once the countdown has started and then changes to "All bombs exploded" after all bombs have finished exploding.
+Reasoning: The problem statement specified these transitions to reflect the progress of the countdowns and the final state of all timebombs.
+
+
+6. Assumption: Flexbox is used for styling to ensure that the application layout is responsive and well-structured.
+Reasoning: The problem statement emphasized using flexbox for responsive design, so the layout was implemented using flexbox to align the bombs and button appropriately on different screen sizes.
+
+
+7. Assumption: Once the countdown starts, there is no option to pause or reset the timers.
+Reasoning: The problem statement does not mention pausing or resetting functionality, so the application was implemented as a one-way operation where timers count down to zero without interruption.
+
+
+8. Assumption: The "Explode" button can only be clicked once, and no handling for multiple clicks or overlap in starting the countdowns is needed.
+Reasoning: The task specification did not mention needing to handle multiple clicks or overlapping operations, so the application assumes a single start operation.
+
+
